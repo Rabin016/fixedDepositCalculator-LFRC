@@ -11365,6 +11365,8 @@ video {
     z-index: auto;
 }
 
+/*box sizing border-box*/
+
 .border-box {
     box-sizing: border-box;
 }
@@ -11375,6 +11377,18 @@ video {
 
 *, *:before, *:after {
     box-sizing: border-box;
+}
+
+/*input number spinner arrow hider*/
+
+.no-spinners {
+    -moz-appearance: textfield;
+}
+
+.no-spinners::-webkit-outer-spin-button,
+.no-spinners::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 @media (min-width: 640px) {
